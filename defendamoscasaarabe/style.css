@@ -24,9 +24,9 @@
         nav{
             display:none;
         }
-        .menu-movil{display:block;margin-bottom:1.625rem;}
-        .menu-movil summary{font-size:2.625rem;margin-left:1.125rem;}
-        .menu-movil details{padding:1rem;}
+        .menu-movil{display:block;margin-bottom:0.625rem;}
+        .menu-movil summary{font-size:2.5rem;margin-left:1.25rem;}
+        .menu-movil details{padding:0.25rem;}
         .menu-movil details p{margin-bottom:1rem;}
         .menu-movil details p a{margin:1.625rem;padding:0.5rem;background-color:#ddd;text-decoration:none;}
         details > summary {
