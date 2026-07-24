@@ -161,3 +161,32 @@ article img{
     margin:0;
     border:0.125rem #354115 solid;
 }
+.instagram, .wpp, .thissite, .petition, .dwnload, .folder{
+    &::before{
+        content:"";
+        display:inline-block;
+        height:1rem;
+        width:1rem;
+        background-size:1rem 1rem;
+        background-repeat:no-repeat;
+        margin-right:0.125rem;
+    }
+}
+.instagram::before{
+    background-image:url('https://www.liege.be/fr/vivre-a-liege/enseignement/enseignement-communal-liegeois/images/instagram-logo-32x32px.png/@@images/image.png');
+}
+.wpp::before{
+    background-image:url('https://icons.iconarchive.com/icons/limav/flat-gradient-social/128/Whatsapp-icon.png');
+}
+.thissite::before{
+    background-image:url('assets/estrella.png');
+}
+.petition::before{
+    background-image:url('https://cdn-icons-png.flaticon.com/128/684/684930.png');
+}
+.dwnload::before{
+    background-image:url('https://cdn-icons-png.flaticon.com/128/9131/9131795.png');
+}
+.folder::before{
+    background-image:url('https://cdn-icons-png.flaticon.com/128/12075/12075377.png');
+}
